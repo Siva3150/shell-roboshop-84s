@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AMI=ami-09c813fb71547fc4f
-SG_ID=sg-0eb268985a47f9c17 #replace with your SG ID
+AMI="ami-09c813fb71547fc4f"
+SG_ID="sg-0eb268985a47f9c17" #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
-ZONE_ID=Z03672276PNJXQMW5BRF # replace your zone ID
+ZONE_ID="Z03672276PNJXQMW5BRF" # replace your zone ID
 DOMAIN_NAME="sivadevops.fun"
 
 for i in "${INSTANCES[@]}"
