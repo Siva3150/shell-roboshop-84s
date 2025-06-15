@@ -44,7 +44,7 @@
 
 AMI=ami-"09c813fb71547fc4f"
 SG_ID="sg-0eb268985a47f9c17" #replace with your SG ID
-INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
+INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z02186033QPSEMV5IIWBW" # replace your zone ID
 DOMAIN_NAME="sivadevops.fun"
 
